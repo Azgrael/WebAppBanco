@@ -1,3 +1,10 @@
 body {
-	background-color: red; 
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,220,255,0.25) 20%, rgba(0,172,255,0.2) 100%); 
+	background-repeat: no-repeat;
+	background-size: 2000px 1000px;
+}
+
+* {
+	color: white;
 }
