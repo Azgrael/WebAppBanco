@@ -1,9 +1,25 @@
 body {
 	background: rgb(0,0,0);
-	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,220,255,0.3) 25%, rgba(0,172,255,0.1) 100%); 
+	background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(255,184,28,1) 100%);
 	background-repeat: no-repeat;
 	background-size: 2000px 1000px;
+	margin: 0px;
 }
+
+#header {
+	background-color: dimgrey;
+	height: 150px;
+	position: sticky;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#header #cabeçalho{
+	height: 100px;
+}
+#header #menu{
+	height: 50px;
+}
+
 
 * {
 	color: white;
