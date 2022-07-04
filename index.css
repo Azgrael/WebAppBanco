@@ -35,12 +35,17 @@ body {
 #corpo p{
 	font-size: 1.5em;
 }
+#corpo img{
+	float: right;
+	overflow: auto;
+}
 
 #footer{
+	clear: all;
 	background-color: dimgrey;
 	margin-top: 50px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 #footer *{
 	margin-left: 10px;
