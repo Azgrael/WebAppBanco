@@ -4,22 +4,49 @@ body {
 	background-repeat: no-repeat;
 	background-size: 2000px 1000px;
 	margin: 0px;
+	padding: 0px;
 }
 
 #header {
 	background-color: dimgrey;
 	height: 150px;
 	position: sticky;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin: 0px;
 }
 #header #cabeçalho{
 	height: 100px;
+	margin-top: 0px;
+	margin-left: 50px;
+	padding: 5px;
 }
 #header #menu{
+	background-color: grey;
 	height: 50px;
+	margin: 0px;
+	padding-top: 2px;
+	padding-left: 30px;
 }
 
+#corpo{
+	margin-top: 25px;
+	margin-right: 2px;
+	margin-left: 10px;
+}
+#corpo p{
+	font-size: 1.5em;
+}
+
+#footer{
+	background-color: dimgrey;
+	margin-top: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#footer *{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1.2em
+}
 
 * {
 	color: white;
