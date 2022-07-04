@@ -28,8 +28,8 @@ body {
   text-decoration: none;
   margin:0px;
 }
-#links #primeiroLink{
-	margin-left: 500px;
+#primeiroLink{
+  margin-left: 500px;
 }
 #autenticacao a {
   float: right;
