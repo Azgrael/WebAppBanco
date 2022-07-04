@@ -7,44 +7,46 @@ body {
 	padding: 0px;
 }
 
+
 #header {
 	background-color: dimgrey;
-	height: 150px;
-	position: sticky;
+	height: 100px;
 	margin: 0px;
 }
-#header #cabecalho{
+#cabecalho{
 	height: 100px;
 	margin-top: 0px;
 	margin-left: 50px;
 	padding: 5px;
+	float: left;
 }
-#header #menu{
-	background-color: grey;
-	height: 46px;
-	margin: 0px;
-}
-#header #menu #links a {
+#links a {
   float: left;
   display: block;
   text-align: center;
-  padding: 14px 25px;
+  padding: 15px 25px;
   text-decoration: none;
   margin:0px;
 }
-#header #menu #autenticacao a {
+#links #link1{
+	margin-left: 500px;
+}
+#autenticacao a {
   float: right;
   display: block;
   text-align: center;
-  padding: 14px 25px;
+  padding: 15px 25px;
   text-decoration: none;
   margin:0px;
 }
-#header #menu a:hover {
+#header a:hover {
   background-color: #ddd;
   color: black;
   margin:0px;
 }
+
+
+
 
 #corpo{
 	margin-top: 25px;
